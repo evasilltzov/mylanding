@@ -30,7 +30,7 @@ browsers: ["last 2 versions"]
 }
 
 function clear() {
-    return del("dist")
+    return del("./dist")
 }
 
 async function serve() {
